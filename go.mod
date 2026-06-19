@@ -3,16 +3,18 @@ module github.com/Compogo/validator
 go 1.26.1
 
 require (
-	github.com/Compogo/compogo v0.0.33
-	github.com/go-playground/validator/v10 v10.30.2
+	github.com/Compogo/compogo v1.0.0-rc1
+	github.com/go-playground/validator/v10 v10.30.3
 )
 
 require (
+	github.com/Compogo/tools v1.0.0 // indirect
+	github.com/Compogo/types v1.0.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
-	golang.org/x/crypto v0.51.0 // indirect
-	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
 )
